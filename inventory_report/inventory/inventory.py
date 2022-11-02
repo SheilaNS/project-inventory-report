@@ -12,5 +12,4 @@ class Inventory:
             prod_list = list(file_reader)
         if type == "simples":
             return SimpleReport.generate(prod_list)
-        if type == "completo":
-            return CompleteReport.generate(prod_list)
+        return CompleteReport.generate(prod_list)
