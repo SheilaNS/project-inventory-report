@@ -5,7 +5,7 @@ def test_cria_produto():
     product = Product(
         1,
         "Sheila",
-        "AGA Tecnologia",
+        "Leonor inc.",
         "1984-10-18",
         "2070-10-18",
         "FILHA002",
