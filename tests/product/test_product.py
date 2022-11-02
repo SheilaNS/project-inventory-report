@@ -14,7 +14,7 @@ def test_cria_produto():
 
     assert product.id == 1
     assert product.nome_do_produto == "Sheila"
-    assert product.nome_da_empresa == "AGA Tecnologia"
+    assert product.nome_da_empresa == "Leonor inc."
     assert product.data_de_fabricacao == "1984-10-18"
     assert product.data_de_validade == "2070-10-18"
     assert product.numero_de_serie == "FILHA002"
